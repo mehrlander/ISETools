@@ -16,40 +16,53 @@ This is a well-maintained library of PowerShell ISE add-ons and utilities. While
 
 ## Quick Reference: All 31 Scripts
 
-| Script | Purpose |
-|--------|---------|
-| Add-ISEBookmark | Tag line |
-| Bookmarks.ps1 | Manage bookmarks |
-| CIMScriptMaker.ps1 | Build WMI queries |
-| CloseAllFiles.ps1 | Close tabs |
-| Convert-AliasDefinition.ps1 | Expand aliases |
-| Convert-CodetoSnippet.ps1 | Selection to snippet |
-| Convert-CommandToHash.ps1 | Params to hash |
-| Convert-ISEComment.ps1 | Block comment |
-| ConvertAll.ps1 | Batch convert |
-| ConvertFrom-Alias.ps1 | Replace aliases |
-| ConvertTo-CommentHelp.ps1 | Comments to help |
-| ConvertTo-TextFile.ps1 | Save buffer |
-| Copy-ToWord.ps1 | Send to Word |
-| CurrentProjects.ps1 | Track projects |
-| CycleISETabs.ps1 | Switch files |
-| Edit-Snippet.ps1 | Edit snippets |
-| Find-InFile.ps1 | Deep search |
-| Get-ASTScriptProfile.ps1 | Analyze AST |
-| Get-CommandMetadata.ps1 | Extract cmd info |
-| Get-ScriptComments.ps1 | Pull comments |
-| Get-SearchResult.ps1 | Search helper |
-| New-CommentHelp.ps1 | Scaffold help |
-| New-DSCResourceSnippet.ps1 | Template DSC |
-| New-FileHere.ps1 | Create file here |
-| New-InputBox.ps1 | GUI prompt |
-| New-ISEFunction.ps1 | Scaffold function |
-| New-PSCommand.ps1 | Draft command |
-| Open-SelectedInISE.ps1 | Load selection |
-| Out-ISETab.ps1 | Send to new file |
-| Print-ISEFile.ps1 | Send to printer |
-| Reload-ISEFile.ps1 | Refresh from disk |
-| Sign-ISEScript.ps1 | Add signature |
+| Script | Category | Purpose |
+|--------|----------|---------|
+| **Add-ISEBookmark** | Bookmarking | Tag line |
+| **Bookmarks.ps1** | Bookmarking | Manage bookmarks |
+| **CIMScriptMaker.ps1** | Utilities | Build WMI queries |
+| **CloseAllFiles.ps1** | File/Tab | Close tabs |
+| **Convert-AliasDefinition.ps1** | Code Conversion | Expand aliases |
+| **Convert-CodetoSnippet.ps1** | Code Conversion | Selection to snippet |
+| **Convert-CommandToHash.ps1** | Code Conversion | Params to hash |
+| **Convert-ISEComment.ps1** | Code Conversion | Block comment |
+| **ConvertAll.ps1** | Code Conversion | Batch convert |
+| **ConvertFrom-Alias.ps1** | Code Conversion | Replace aliases |
+| **ConvertTo-CommentHelp.ps1** | Help/Docs | Comments to help |
+| **ConvertTo-TextFile.ps1** | Export | Save buffer |
+| **Copy-ToWord.ps1** | Integration | Send to Word |
+| **CurrentProjects.ps1** | Utilities | Track projects |
+| **CycleISETabs.ps1** | File/Tab | Switch files |
+| **Edit-Snippet.ps1** | Snippets | Edit snippets |
+| **Find-InFile.ps1** | Search/Nav | Deep search |
+| **Get-ASTScriptProfile.ps1** | Analysis | Analyze AST |
+| **Get-CommandMetadata.ps1** | Analysis | Extract cmd info |
+| **Get-ScriptComments.ps1** | Analysis | Pull comments |
+| **Get-SearchResult.ps1** | Search/Nav | Search helper |
+| **New-CommentHelp.ps1** | Generation | Scaffold help |
+| **New-DSCResourceSnippet.ps1** | Generation | Template DSC |
+| **New-FileHere.ps1** | Utilities | Create file here |
+| **New-InputBox.ps1** | Utilities | GUI prompt |
+| **New-ISEFunction.ps1** | Generation | Scaffold function |
+| **New-PSCommand.ps1** | Generation | Draft command |
+| **Open-SelectedInISE.ps1** | File/Tab | Load selection |
+| **Out-ISETab.ps1** | File/Tab | Send to new file |
+| **Print-ISEFile.ps1** | Output | Send to printer |
+| **Reload-ISEFile.ps1** | File/Tab | Refresh from disk |
+| **Sign-ISEScript.ps1** | Security | Add signature |
+
+**Category Summary:**
+- **File/Tab Management** (6): CloseAllFiles, CycleISETabs, Open-SelectedInISE, Out-ISETab, Reload-ISEFile
+- **Bookmarking** (1 file, 2 functions): Add-ISEBookmark, Bookmarks
+- **Code Conversion** (6): Convert-AliasDefinition, Convert-CodetoSnippet, Convert-CommandToHash, Convert-ISEComment, ConvertAll, ConvertFrom-Alias
+- **Help/Docs** (1): ConvertTo-CommentHelp
+- **Analysis** (3): Get-ASTScriptProfile, Get-CommandMetadata, Get-ScriptComments
+- **Generation** (4): New-CommentHelp, New-DSCResourceSnippet, New-ISEFunction, New-PSCommand
+- **Search/Navigation** (2): Find-InFile, Get-SearchResult
+- **Integration/Export** (2): Copy-ToWord, ConvertTo-TextFile
+- **Output** (1): Print-ISEFile
+- **Utilities** (4): CIMScriptMaker, CurrentProjects, New-FileHere, New-InputBox
+- **Security** (1): Sign-ISEScript
 
 ## Script Categories
 
