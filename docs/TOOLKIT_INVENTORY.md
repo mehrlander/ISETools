@@ -18,19 +18,19 @@ This is a well-maintained library of PowerShell ISE add-ons and utilities. While
 
 ### Categories at a Glance
 
-| Category | Count | Purpose |
-|----------|-------|---------|
-| **File/Tab Management** | 6 | Manage open files and tabs |
-| **Bookmarking** | 2 | Create navigation bookmarks |
-| **Code Conversion** | 6 | Transform code and syntax |
-| **Help/Docs** | 1 | Generate documentation |
-| **Analysis** | 3 | Inspect and profile scripts |
-| **Generation** | 4 | Create templates and boilerplate |
-| **Search/Navigation** | 2 | Find and navigate code |
-| **Integration/Export** | 2 | Export to external tools |
-| **Output** | 1 | Print and output files |
-| **Utilities** | 4 | Miscellaneous helper tools |
-| **Security** | 1 | Sign and secure scripts |
+| Category | Scripts | Purpose |
+|----------|---------|---------|
+| **File/Tab Management** | 6 | Handle file open/close, tab switching, and editor refresh operations |
+| **Bookmarking** | 2 | Save and navigate to marked positions in code |
+| **Code Conversion** | 6 | Refactor aliases, parameters, comments, and convert to snippets |
+| **Help/Docs** | 1 | Generate comment-based help blocks and documentation |
+| **Analysis** | 3 | Parse AST to analyze structure, requirements, and dependencies |
+| **Generation** | 4 | Generate function stubs, help blocks, and DSC templates |
+| **Search/Navigation** | 2 | Full-text search across files with result navigation |
+| **Integration/Export** | 2 | Export code to Word and other external tools |
+| **Output** | 1 | Send editor content to printer or file |
+| **Utilities** | 4 | CIM templates, project tracking, dialogs, file creation |
+| **Security** | 1 | Apply digital signatures to PowerShell scripts |
 
 ### All 31 Scripts
 
