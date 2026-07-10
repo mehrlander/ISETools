@@ -14,7 +14,25 @@ These scripts are from the **ISEScriptingGeek** module, a public PowerShell tool
 
 This is a well-maintained library of PowerShell ISE add-ons and utilities. While the module is no longer actively extended (as of 2019, since VS Code is Microsoft's preferred editor), it remains useful for script analysis and legacy ISE workflows.
 
-## Quick Reference: All 31 Scripts
+## Quick Reference
+
+### Categories at a Glance
+
+| Category | Count | Purpose |
+|----------|-------|---------|
+| **File/Tab Management** | 6 | Manage open files and tabs |
+| **Bookmarking** | 2 | Create navigation bookmarks |
+| **Code Conversion** | 6 | Transform code and syntax |
+| **Help/Docs** | 1 | Generate documentation |
+| **Analysis** | 3 | Inspect and profile scripts |
+| **Generation** | 4 | Create templates and boilerplate |
+| **Search/Navigation** | 2 | Find and navigate code |
+| **Integration/Export** | 2 | Export to external tools |
+| **Output** | 1 | Print and output files |
+| **Utilities** | 4 | Miscellaneous helper tools |
+| **Security** | 1 | Sign and secure scripts |
+
+### All 31 Scripts
 
 | Script | Category | Brief | Details |
 |--------|----------|-------|---------|
