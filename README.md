@@ -6,7 +6,13 @@ A personal PowerShell toolkit built for the Integrated Scripting Environment (IS
 
 ## Origin
 
-This is a collection of your own scripts written to improve productivity within PowerShell ISE. The utilities reflect professional PowerShell practices and are influenced by the PowerShell community, particularly [Jeff Hicks' work](http://jdhitsolutions.com/blog/essential-PowerShell-resources/).
+These scripts are from the **ISEScriptingGeek** module, a public PowerShell toolset by Jeff Hicks (jdhitsolutions). 
+
+**Source Repository:** [jdhitsolutions/ISEScriptingGeek on GitHub](https://github.com/jdhitsolutions/ISEScriptingGeek)
+
+**PowerShell Gallery:** [ISEScriptingGeek](https://www.powershellgallery.com/packages/ISEScriptingGeek)
+
+This is a well-maintained library of PowerShell ISE add-ons and utilities. While the module is no longer actively extended (as of 2019, since VS Code is Microsoft's preferred editor), it remains useful for script analysis and legacy ISE workflows.
 
 ## Script Categories
 
