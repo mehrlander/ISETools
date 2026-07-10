@@ -20,17 +20,17 @@ This is a well-maintained library of PowerShell ISE add-ons and utilities. While
 
 | Category | Scripts | Interest | Purpose |
 |----------|---------|----------|---------|
-| **File/Tab Management** | 6 | ⭐⭐⭐ | Handle file open/close, tab switching, and editor refresh operations |
-| **Bookmarking** | 2 | ⭐⭐⭐ | Save and navigate to marked positions in code |
-| **Code Conversion** | 6 | ⭐⭐⭐ | Refactor aliases, parameters, comments, and convert to snippets |
-| **Help/Docs** | 1 | ⭐⭐ | Generate comment-based help blocks and documentation |
-| **Analysis** | 3 | ⭐⭐ | Parse AST to analyze structure, requirements, and dependencies |
-| **Generation** | 4 | ⭐⭐⭐ | Generate function stubs, help blocks, and DSC templates |
-| **Search/Navigation** | 2 | ⭐⭐⭐ | Full-text search across files with result navigation |
-| **Integration/Export** | 2 | ⭐⭐ | Export code to Word and other external tools |
-| **Output** | 1 | ⭐ | Send editor content to printer or file |
-| **Utilities** | 4 | ⭐⭐ | CIM templates, project tracking, dialogs, file creation |
-| **Security** | 1 | ⭐ | Apply digital signatures to PowerShell scripts |
+| **File/Tab Management** | 6 | ⭐⭐ | Handle file open/close, tab switching, and editor refresh operations |
+| **Bookmarking** | 2 | ⭐⭐ | Save and navigate to marked positions in code |
+| **Code Conversion** | 6 | ⭐⭐ | Refactor aliases, parameters, comments, and convert to snippets |
+| **Help/Docs** | 1 | ⭐ | Generate comment-based help blocks and documentation |
+| **Analysis** | 3 | ⭐ | Parse AST to analyze structure, requirements, and dependencies |
+| **Generation** | 4 | ⭐⭐ | Generate function stubs, help blocks, and DSC templates |
+| **Search/Navigation** | 2 | ⭐⭐ | Full-text search across files with result navigation |
+| **Integration/Export** | 2 | ⭐ | Export code to Word and other external tools |
+| **Output** | 1 |  | Send editor content to printer or file |
+| **Utilities** | 4 | ⭐ | CIM templates, project tracking, dialogs, file creation |
+| **Security** | 1 |  | Apply digital signatures to PowerShell scripts |
 
 ### All 31 Scripts
 
