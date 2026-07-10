@@ -16,40 +16,40 @@ This is a well-maintained library of PowerShell ISE add-ons and utilities. While
 
 ## Quick Reference: All 31 Scripts
 
-| Script | Category | Purpose |
-|--------|----------|---------|
-| **Add-ISEBookmark** | Bookmarking | Tag line |
-| **Bookmarks.ps1** | Bookmarking | Manage bookmarks |
-| **CIMScriptMaker.ps1** | Utilities | Build WMI queries |
-| **CloseAllFiles.ps1** | File/Tab | Close tabs |
-| **Convert-AliasDefinition.ps1** | Code Conversion | Expand aliases |
-| **Convert-CodetoSnippet.ps1** | Code Conversion | Selection to snippet |
-| **Convert-CommandToHash.ps1** | Code Conversion | Params to hash |
-| **Convert-ISEComment.ps1** | Code Conversion | Block comment |
-| **ConvertAll.ps1** | Code Conversion | Batch convert |
-| **ConvertFrom-Alias.ps1** | Code Conversion | Replace aliases |
-| **ConvertTo-CommentHelp.ps1** | Help/Docs | Comments to help |
-| **ConvertTo-TextFile.ps1** | Export | Save buffer |
-| **Copy-ToWord.ps1** | Integration | Send to Word |
-| **CurrentProjects.ps1** | Utilities | Track projects |
-| **CycleISETabs.ps1** | File/Tab | Switch files |
-| **Edit-Snippet.ps1** | Snippets | Edit snippets |
-| **Find-InFile.ps1** | Search/Nav | Deep search |
-| **Get-ASTScriptProfile.ps1** | Analysis | Analyze AST |
-| **Get-CommandMetadata.ps1** | Analysis | Extract cmd info |
-| **Get-ScriptComments.ps1** | Analysis | Pull comments |
-| **Get-SearchResult.ps1** | Search/Nav | Search helper |
-| **New-CommentHelp.ps1** | Generation | Scaffold help |
-| **New-DSCResourceSnippet.ps1** | Generation | Template DSC |
-| **New-FileHere.ps1** | Utilities | Create file here |
-| **New-InputBox.ps1** | Utilities | GUI prompt |
-| **New-ISEFunction.ps1** | Generation | Scaffold function |
-| **New-PSCommand.ps1** | Generation | Draft command |
-| **Open-SelectedInISE.ps1** | File/Tab | Load selection |
-| **Out-ISETab.ps1** | File/Tab | Send to new file |
-| **Print-ISEFile.ps1** | Output | Send to printer |
-| **Reload-ISEFile.ps1** | File/Tab | Refresh from disk |
-| **Sign-ISEScript.ps1** | Security | Add signature |
+| Script | Category | Brief | Details |
+|--------|----------|-------|---------|
+| **Add-ISEBookmark** | Bookmarking | Tag line | Mark cursor position with name |
+| **Bookmarks.ps1** | Bookmarking | Manage bookmarks | Add, open, update, remove marks |
+| **CIMScriptMaker.ps1** | Utilities | Build WMI queries | Generate WMI/CIM query templates |
+| **CloseAllFiles.ps1** | File/Tab | Close tabs | Close all or all-but-current files |
+| **Convert-AliasDefinition.ps1** | Code Conversion | Expand aliases | Replace command aliases with full names |
+| **Convert-CodetoSnippet.ps1** | Code Conversion | Selection to snippet | Convert code into ISE snippet |
+| **Convert-CommandToHash.ps1** | Code Conversion | Params to hash | Extract parameters into hash table |
+| **Convert-ISEComment.ps1** | Code Conversion | Block comment | Wrap text in comment blocks |
+| **ConvertAll.ps1** | Code Conversion | Batch convert | Apply conversions to multiple files |
+| **ConvertFrom-Alias.ps1** | Code Conversion | Replace aliases | Scan file and replace all aliases |
+| **ConvertTo-CommentHelp.ps1** | Help/Docs | Comments to help | Format comments as help blocks |
+| **ConvertTo-TextFile.ps1** | Export | Save buffer | Export editor content to file |
+| **Copy-ToWord.ps1** | Integration | Send to Word | Export code to Microsoft Word |
+| **CurrentProjects.ps1** | Utilities | Track projects | Monitor active project list |
+| **CycleISETabs.ps1** | File/Tab | Switch files | Navigate between open tabs |
+| **Edit-Snippet.ps1** | Snippets | Edit snippets | Open and modify snippet library |
+| **Find-InFile.ps1** | Search/Nav | Deep search | Search files and navigate results |
+| **Get-ASTScriptProfile.ps1** | Analysis | Analyze AST | Profile script structure and requirements |
+| **Get-CommandMetadata.ps1** | Analysis | Extract cmd info | Read PowerShell command metadata |
+| **Get-ScriptComments.ps1** | Analysis | Pull comments | Extract all comments from script |
+| **Get-SearchResult.ps1** | Search/Nav | Search helper | Utility for search operations |
+| **New-CommentHelp.ps1** | Generation | Scaffold help | Generate comment-based help template |
+| **New-DSCResourceSnippet.ps1** | Generation | Template DSC | Create DSC resource template |
+| **New-FileHere.ps1** | Utilities | Create file here | Create new file at location |
+| **New-InputBox.ps1** | Utilities | GUI prompt | Display input dialog box |
+| **New-ISEFunction.ps1** | Generation | Scaffold function | Create function template |
+| **New-PSCommand.ps1** | Generation | Draft command | Generate complete function skeleton |
+| **Open-SelectedInISE.ps1** | File/Tab | Load selection | Open selected file path in ISE |
+| **Out-ISETab.ps1** | File/Tab | Send to new file | Create output in new tab |
+| **Print-ISEFile.ps1** | Output | Send to printer | Print current file to printer |
+| **Reload-ISEFile.ps1** | File/Tab | Refresh from disk | Reload file from disk |
+| **Sign-ISEScript.ps1** | Security | Add signature | Apply digital signature to script |
 
 **Category Summary:**
 - **File/Tab Management** (6): CloseAllFiles, CycleISETabs, Open-SelectedInISE, Out-ISETab, Reload-ISEFile
